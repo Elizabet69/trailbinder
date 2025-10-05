@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+venv/ env/
+.DS_Store
+.idea/ .vscode/
+
+# локальные данные
+data/snippets/**
+!data/snippets/.keep
+data/meta/**
+!data/meta/.keep
+data/samples/**
+!data/samples/.keep
+
+# локальные сторы
+tasks/**
+!tasks/.keep
+bookmarks/**
+!bookmarks/.keep
+
+# секреты/окружение
+.env
+*.env
+.env.*
+
+# редактор
+*.swp
+*.swo
