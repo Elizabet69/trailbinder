@@ -26,3 +26,8 @@ bookmarks/**
 # редактор
 *.swp
 *.swo
+
+cron.log
+cron.log.*
+reports/**
+!reports/.keep
