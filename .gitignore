@@ -31,3 +31,5 @@ cron.log
 cron.log.*
 reports/**
 !reports/.keep
+.cron.lock
+auto_updater/updater.py.bak.*
