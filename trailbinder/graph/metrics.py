@@ -12,3 +12,5 @@ def in_degree(g: Dict[str, List[str]]) -> Dict[str, int]:
 
 def top_by_out(g: Dict[str, List[str]], n: int = 5) -> List[Tuple[str, int]]:
     return sorted(((k, len(v)) for k, v in g.items()), key=lambda x: -x[1])[:n]
+
+# autosave 2025-10-06T11:33:13.061825+00:00
