@@ -16,3 +16,5 @@ def run():
             idx[fn]["chars"] = len(txt)
     json.dump(idx, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return True, "sample plugin updated 'chars'"
+
+# autosave 2025-10-10T11:19:28.026908+00:00
