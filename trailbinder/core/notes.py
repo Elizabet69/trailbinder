@@ -51,3 +51,5 @@ def build_index() -> str:
     out = os.path.join(META_DIR, "index.json")
     json.dump(idx, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return out
+
+# autosave 2025-11-10T16:54:19.572678+00:00
